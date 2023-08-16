@@ -2,12 +2,12 @@ let fiss = " "
 for (let i = 1; i <=100; i ++){
   console.log(i)
   if ( i % 3 == 0 && i % 5 ==0){
-    fiss += "fissbuss"
-    console.log("fissbuss")
+    fiss += "fizzbuss"
+    console.log("fizzbuss")
   }
   if (i % 3 == 0){
-    fiss += "fiss"
-    console.log("fiss")
+    fiss += "fizz"
+    console.log("fizz")
   }
   if (i % 5 == 0){
     fiss += "buss"
